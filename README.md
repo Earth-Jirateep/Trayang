@@ -7,7 +7,7 @@ We make rubber stamps at low prices, good quality, order now and get them delive
 ## 🛠 Technologies Used
 - HTML, CSS, JavaScript
 - PHP, MySQL
-- Wordpress
+- Wordpress, CMB2
 
 ## 👨‍💻 About Me
 Developed by [Jirateep Dangchai](https://github.com/Earth-Jirateep).
