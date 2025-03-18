@@ -896,9 +896,9 @@ section {
 }
 
 /*********** First **********/
-.section-our-work-description-box-container {
+/* .section-our-work-description-box-container {
     
-}
+} */
 .section-our-work-description-wrapper {
     position: relative;
     display: flex;
@@ -981,9 +981,9 @@ section {
 }
 
 /*********** Second **********/
-.section-our-work-description-box-second-container {
+/* .section-our-work-description-box-second-container {
 
-}
+} */
 .section-our-work-description-wrapper-second {
     position: relative;
     display: flex;
@@ -1388,9 +1388,9 @@ section {
     background-repeat: no-repeat;
     transition: all 0.6s ease;
 }
-.article-button:hover {
+/* .article-button:hover {
 
-}
+} */
 .section-contact-us {
     position: relative;
     align-items: flex-start;
