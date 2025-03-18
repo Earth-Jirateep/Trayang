@@ -1,0 +1,6 @@
+#home_page_metabox .cmb-row.cmb2-id-section-hero-span-text-1 .cmb-td,
+#home_page_metabox .cmb-row.cmb2-id-section-hero-span-text-2 .cmb-td {
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+}

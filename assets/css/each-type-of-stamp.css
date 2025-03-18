@@ -1,0 +1,1838 @@
+
+.section-hero-each-stamp {
+    background-image: url(../images/each-type-of-stamp/bg-hero-each-stamp.png);
+    height: 336px;
+}
+.section-hero-each-stamp-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-hero-each-stamp-wrapper h1 {
+    font-size: 70px;
+    font-family: "ibm-plex-sans-thai-regular";
+    color: #fff;
+    line-height: 1;
+}
+
+
+.site-main.each-stamp .section-cheap-price {
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 28px 96px 0;
+}
+.site-main.each-stamp .section-cheap-price-wrapper {
+    justify-content: space-between;
+    align-items: center;
+}
+.site-main.each-stamp .cheap-price-right-on-target {
+    width: 786px;
+}
+.site-main.each-stamp .cheap-price-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.site-main.each-stamp .cheap-price-image {
+    position: relative;
+    left: -50px;
+}
+
+.site-main.each-stamp .cheap-price-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 34px;
+}
+
+.section-why-do-you-have-to-order {
+    align-items: flex-start;
+    height: 606px;
+    background-color: #F4F5F7;
+    padding-top: 134px;
+}
+.section-why-do-you-have-to-order-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 66px;
+}
+.section-why-do-you-have-to-order-header {
+    display: flex;
+}
+.section-why-do-you-have-to-order-header h2 {
+    position: relative;
+    font-family: "ibm-plex-sans-thai-bold";
+    font-size: 36px;
+    color: #ED2024;
+    line-height: 1.4;
+    width: 420px;
+}
+.section-why-do-you-have-to-order-header h2::before {
+    content: "";
+    position: absolute;
+    top: -60px;
+    right: -104px;
+    width: 133px;
+    height: 133px;
+    background-image: url(../images/order/trayang-image-blue.png);
+    background-size: auto 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.section-why-do-you-have-to-order-header h2::after {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    width: 180px;
+    height: 3px;
+    background-color: #ED2024;
+}
+.section-why-do-you-have-to-order-detail-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.section-why-do-you-have-to-order-detail-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 384px;
+}
+.section-why-do-you-have-to-order-detail-image {
+    width: 74px;
+    height: 74px;
+    margin-bottom: 30px;
+}
+.section-why-do-you-have-to-order-detail-image img {
+    width: auto;
+}
+.section-why-do-you-have-to-order-detail-header {
+    display: flex;
+    margin-bottom: 14px;
+}
+.section-why-do-you-have-to-order-detail-header h3 {
+    font-family: "ibm-plex-sans-thai-regular";
+    font-size: 24px;
+    line-height: 1;
+    color: #0C2E63;
+}
+.section-why-do-you-have-to-order-detail-text {
+    display: flex;
+}
+.section-why-do-you-have-to-order-detail-text p {
+    font-family: "ibm-plex-sans-thai-medium";
+    font-size: 18px;
+    line-height: 1.5;
+    color: #0C2E63;
+    text-align: center;
+}
+
+.section-each-stamp-first {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 344px;
+    padding: 28px 112px;
+}
+.section-each-stamp-first-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.trayang-breadcrumb {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.trayang-breadcrumb a {
+    font-family: "ibm-plex-sans-thai-medium";
+    font-size: 14px;
+    color: #000;
+}
+.trayang-breadcrumb a:last-child {
+    font-family: "ibm-plex-sans-thai-regular";
+}
+
+.cheap-price-header h2 .cheap-price-span-text-1 {
+    animation: textMoveUpSecondOne 3s cubic-bezier(0, 0, 0, 1.0) infinite;
+    animation-delay: 0s;
+}
+.cheap-price-header h2 .cheap-price-span-text-2 {
+    animation: textMoveUpSecondTwo 3s cubic-bezier(0, 0, 0, 1.0) infinite;
+    animation-delay: 0s;
+}
+.cheap-price-header h2 .cheap-price-span-text-3 {
+    animation: textMoveUpSecondThree 3s cubic-bezier(0, 0, 0, 1.0) infinite;
+    animation-delay: 0s;
+}
+.section-each-stamp-first-wrapper h2 .cheap-price-span-text-1, .section-each-stamp-first-wrapper h2 .cheap-price-span-text-2 , .section-each-stamp-first-wrapper h2 .cheap-price-span-text-3 {
+    color: #ED2024;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    text-align: left;
+}
+
+.trayang-breadcrumb + .cheap-price-header {
+    margin-top: 20px;
+}
+
+.section-each-stamp-second-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 78px 0 0 110px;
+    margin-bottom: 40px;
+}
+.section-each-stamp-second-header h2 {
+    position: relative;
+    font-family: "ibm-plex-sans-thai-bold";
+    font-size: 36px;
+    color: #ED2024;
+    line-height: 1;
+}
+.section-each-stamp-second-header h2:after {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    width: 180px;
+    height: 3px;
+    background-color: #ED2024;
+}
+
+.section-each-stamp-second {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 616px;
+    padding-top: 78px;
+}
+.section-each-stamp-second-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+
+.section-each-stamp-second-text-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 594px;
+    height: 456px;
+}
+.section-each-stamp-second-text-header {
+    display: flex;
+    margin-bottom: 44px;
+}
+.section-each-stamp-second-text-header h2 {
+    position: relative;
+    font-family: "ibm-plex-sans-thai-bold";
+    font-size: 24px;
+    color: #0C2E63;
+    line-height: 1;
+}
+.section-each-stamp-second-text-header h2:before {
+    content: '';
+    position: absolute;
+    bottom: -14px;
+    left: 0;
+    width: 180px;
+    height: 3px;
+    background-color: #0C2E63;
+}
+.section-each-stamp-second-text-detail {
+    display: flex;
+    margin-bottom: 28px;
+}
+.section-each-stamp-second-text-detail p {
+    font-family: "ibm-plex-sans-thai-medium";
+    font-size: 18px;
+    color: #000;
+    line-height: 1.5;
+}
+.section-each-stamp-second-detail-order {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 100px;
+}
+.section-each-stamp-second-detail-order.wholesale-rubber-stamps-add {
+    margin-bottom: 70px;
+}
+.section-each-stamp-second-detail-order-text {
+    display: flex;
+}
+.section-each-stamp-second-detail-order-text p {
+    font-family: "ibm-plex-sans-thai-bold";
+    font-size: 18px;
+    color: #000;
+    line-height: 1;
+    text-decoration: underline;
+}
+.section-each-stamp-second-detail-order-image {
+    display: flex;
+    width: 22px;
+    height: 17px;
+}
+.section-each-stamp-second-detail-order-image img {
+    width: auto;
+}
+
+.section-each-stamp-second-text-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 594px;
+    height: 186px;
+    background-color: #ED2024;
+    border-radius: 16px 146px 16px 16px;
+    gap: 60px;
+    padding: 40px 0 0 80px;
+}
+.section-each-stamp-second-text-bottom-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 84px;
+    gap: 10px;
+}
+.section-each-stamp-second-text-bottom-image-border {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 66px;
+    height: 66px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+.section-each-stamp-second-text-bottom-image {
+    height: 35px;
+}
+.section-each-stamp-second-text-bottom-image img {
+    width: auto;
+}
+.section-each-stamp-second-text-bottom-detail {
+    display: flex;
+    text-align: center;
+}
+.section-each-stamp-second-text-bottom-detail p {
+    font-family: "ibm-plex-sans-thai-medium";
+    font-size: 14px;
+    color: #fff;
+    line-height: 1.5;
+}
+.section-each-stamp-second-image-box {
+    display: flex;
+}
+.section-each-stamp-second-image {
+    height: 456px;
+}
+.section-each-stamp-second-image img {
+    width: auto;
+}
+
+.section-each-stamp-third {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 608px;
+    background-color: #F4F5F7;
+    padding-top: 106px;
+}
+.section-each-stamp-third-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section-each-stamp-third-header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    margin-bottom: 80px;
+}
+.section-each-stamp-third-header h2 {
+    position: relative;
+    font-family: "ibm-plex-sans-thai-bold";
+    font-size: 24px;
+    color: #0C2E63;
+    line-height: 1;
+}
+.section-each-stamp-third-header h2::before {
+    content: "";
+    position: absolute;
+    bottom: -24px;
+    left: 0;
+    width: 180px;
+    height: 3px;
+    background-color: #0C2E63;
+}
+.section-each-stamp-third-header h2::after {
+    content: "";
+    position: absolute;
+    top: -70px;
+    right: -108px;
+    width: 133px;
+    height: 133px;
+    background-image: url(../images/order/trayang-image-blue.png);
+    background-size: auto 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.section-each-stamp-third-wrapper-container {
+    display: flex;
+}
+.section-each-stamp-third-wrapper-slide {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 1216px !important;
+    margin-bottom: 46px;
+}
+.section-each-stamp-third-image {
+    height: 196px;
+}
+.section-each-stamp-third-image img {
+    width: 188px;
+    border-radius: 18px;
+}
+
+
+.section-each-stamp-fourth {
+    display: flex;
+    height: 636px;
+}
+.section-each-stamp-fourth-wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.section-each-stamp-fourth-text-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 594px;
+    height: 456px;
+}
+.section-each-stamp-fourth-text-header {
+    display: flex;
+    margin-bottom: 44px;
+}
+.section-each-stamp-fourth-text-header h2 {
+    position: relative;
+    font-family: "ibm-plex-sans-thai-bold";
+    font-size: 24px;
+    color: #0C2E63;
+    line-height: 1;
+}
+.section-each-stamp-fourth-text-header h2:before {
+    content: '';
+    position: absolute;
+    bottom: -14px;
+    left: 0;
+    width: 180px;
+    height: 3px;
+    background-color: #0C2E63;
+}
+.section-each-stamp-fourth-text-detail {
+    display: flex;
+    margin-bottom: 28px;
+}
+.section-each-stamp-fourth-text-detail p {
+    font-family: "ibm-plex-sans-thai-medium";
+    font-size: 18px;
+    color: #000;
+    line-height: 1.5;
+}
+
+.section-each-stamp-fourth-detail-order-text {
+    display: flex;
+}
+.section-each-stamp-fourth-detail-order-text p {
+    font-family: "ibm-plex-sans-thai-bold";
+    font-size: 18px;
+    color: #000;
+    line-height: 1;
+    text-decoration: underline;
+}
+.section-each-stamp-fourth-detail-order-image {
+    display: flex;
+    width: 22px;
+    height: 17px;
+}
+.section-each-stamp-fourth-detail-order-image img {
+    width: auto;
+}
+
+.section-each-stamp-fourth-text-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 594px;
+    height: 186px;
+    background-color: #ED2024;
+    border-radius: 146px 16px 16px 16px;
+    gap: 60px;
+    padding: 40px 0 28px 114px;
+}
+.section-each-stamp-fourth-text-bottom-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 96px;
+    gap: 10px;
+}
+.section-each-stamp-fourth-text-bottom-image-border {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 66px;
+    height: 66px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+.section-each-stamp-fourth-text-bottom-image {
+    height: 35px;
+}
+.section-each-stamp-fourth-text-bottom-image img {
+    width: auto;
+}
+.section-each-stamp-fourth-text-bottom-detail {
+    display: flex;
+    text-align: center;
+}
+.section-each-stamp-fourth-text-bottom-detail p {
+    font-family: "ibm-plex-sans-thai-medium";
+    font-size: 14px;
+    color: #fff;
+    line-height: 1.5;
+}
+.section-each-stamp-fourth-image-box {
+    display: flex;
+}
+.section-each-stamp-fourth-image {
+    height: 456px;
+}
+.section-each-stamp-fourth-image img {
+    width: auto;
+}
+
+.section-each-stamp-fifth {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 608px;
+    background-color: #F4F5F7;
+    padding-top: 106px;
+}
+.section-each-stamp-fifth-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section-each-stamp-fifth-header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    margin-bottom: 80px;
+}
+.section-each-stamp-fifth-header h2 {
+    position: relative;
+    font-family: "ibm-plex-sans-thai-bold";
+    font-size: 24px;
+    color: #0C2E63;
+    line-height: 1;
+}
+.section-each-stamp-fifth-header h2::before {
+    content: "";
+    position: absolute;
+    bottom: -24px;
+    left: 0;
+    width: 180px;
+    height: 3px;
+    background-color: #0C2E63;
+}
+.section-each-stamp-fifth-header h2::after {
+    content: "";
+    position: absolute;
+    top: -70px;
+    right: -108px;
+    width: 133px;
+    height: 133px;
+    background-image: url(../images/order/trayang-image-blue.png);
+    background-size: auto 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.section-each-stamp-fifth-wrapper-container {
+    display: flex;
+}
+.section-each-stamp-fifth-wrapper-slide {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 1216px !important;
+    margin-bottom: 46px;
+}
+.section-each-stamp-fifth-image {
+    height: 196px;
+}
+.section-each-stamp-fifth-image img {
+    width: auto;
+}
+
+.section-how-is-it-better {
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 316px;
+    padding: 78px 0 0 110px;
+}
+.section-how-is-it-better-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1000px;
+}
+.section-how-is-it-better-header {
+    display: flex;
+    margin-bottom: 54px;
+}
+.section-how-is-it-better-header h2 {
+    position: relative;
+    font-family: "ibm-plex-sans-thai-bold";
+    font-size: 36px;
+    color: #ED2024;
+    line-height: 1;
+}
+.section-how-is-it-better-header h2:after {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    width: 180px;
+    height: 3px;
+    background-color: #ED2024;
+}
+.section-how-is-it-better-detail {
+    display: flex;
+}
+.section-how-is-it-better-detail p {
+    font-family: "ibm-plex-sans-thai-medium";
+    font-size: 18px;
+    color: #000;
+    line-height: 1.5;
+}
+
+.buy-button.stamp-ink-button {
+    display: inline-block;
+    width: 362px;
+    height: 58px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: all 0.4s ease;
+}
+
+.buy-button.stamp-ink-button:hover {
+
+}
+
+.buy-button.design-logo-button {
+    display: inline-block;
+    width: 398px;
+    height: 58px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: all 0.4s ease;
+}
+
+.buy-button.design-logo-button:hover {
+    
+}
+
+.site-main.each-stamp .section-review {
+    height: 846px;
+}
+
+.section-examples-of-trusted-brands {
+    align-items: flex-start;
+    height: 388px;
+    background-color: #F4F5F7;
+    padding-top: 86px;
+}
+.section-examples-of-trusted-brands-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 74px;
+}
+.section-examples-of-trusted-brands-header {
+    display: flex;
+}
+.section-examples-of-trusted-brands-header h2 {
+    position: relative;
+    font-family: "ibm-plex-sans-thai-bold";
+    font-size: 36px;
+    color: #ED2024;
+    line-height: 1;
+}
+.section-examples-of-trusted-brands-header h2:after {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    width: 180px;
+    height: 3px;
+    background-color: #ED2024;
+}
+.section-examples-of-trusted-brands-image-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+}
+.section-examples-of-trusted-brands-image {
+    width: 104px;
+    height: 104px;
+}
+.section-examples-of-trusted-brands-image img {
+    width: auto;
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 1441px) { 
+    .section-hero-each-stamp {
+        height: 23.333vw;
+    }
+    .section-hero-each-stamp-wrapper h1 {
+        font-size: 4.861vw;
+    }
+    
+    .site-main.each-stamp .section-cheap-price {
+        padding: 1.944vw 6.667vw 0;
+    }
+    .site-main.each-stamp .cheap-price-right-on-target {
+        width: 53.5vw;
+    }
+    .site-main.each-stamp .cheap-price-image {
+        left: -3.472vw;
+    }
+    .site-main.each-stamp .cheap-price-bottom {
+        gap: 2.361vw;
+    }
+    .section-why-do-you-have-to-order {
+        height: 42.083vw;
+        padding-top: 9.306vw;
+    }
+    .section-why-do-you-have-to-order-wrapper {
+        gap: 4.583vw;
+    }
+    .section-why-do-you-have-to-order-header h2 {
+        font-size: 2.5vw;
+        width: 29.167vw;
+    }
+    .section-why-do-you-have-to-order-header h2::before {
+        top: -4.167vw;
+        right: -7.222vw;
+        width: 9.236vw;
+        height: 9.236vw;
+    }
+    .section-why-do-you-have-to-order-header h2::after {
+        bottom: -1.389vw;
+        width: 12.5vw;
+        height: 0.208vw;
+    }
+    .section-why-do-you-have-to-order-detail-wrapper {
+        gap: 1.389vw;
+    }
+    .section-why-do-you-have-to-order-detail-box {
+        width: 26.667vw;
+    }
+    .section-why-do-you-have-to-order-detail-image {
+        width: 5.139vw;
+        height: 5.139vw;
+        margin-bottom: 2.083vw;
+    }
+    .section-why-do-you-have-to-order-detail-header {
+        margin-bottom: 0.972vw;
+    }
+    .section-why-do-you-have-to-order-detail-header h3 {
+        font-size: 1.667vw;
+    }
+    .section-why-do-you-have-to-order-detail-text p {
+        font-size: 1.25vw;
+    }
+    .section-each-stamp-first {
+        height: 23.889vw;
+        padding: 1.944vw 7.778vw;
+    }
+    .trayang-breadcrumb a {
+        font-size: 0.972vw;
+    }
+    .trayang-breadcrumb + .cheap-price-header {
+        margin-top: 1.389vw;
+    }
+    .section-each-stamp-second-header {
+        padding: 5.417vw 0 0 7.639vw;
+        margin-bottom: 2.778vw;
+    }
+    .section-each-stamp-second-header h2 {
+        font-size: 2.5vw;
+    }
+    .section-each-stamp-second-header h2:after {
+        bottom: -1.389vw;
+        width: 12.5vw;
+        height: 0.208vw;
+    }
+    .section-each-stamp-second {
+        height: 42.778vw;
+        padding-top: 5.417vw;
+    }
+    .section-each-stamp-second-wrapper {
+        gap: 2.083vw;
+    }
+    .section-each-stamp-second-text-box {
+        width: 41.25vw;
+        height: 31.667vw;
+    }
+    .section-each-stamp-second-text-header {
+        margin-bottom: 3.056vw;
+    }
+    .section-each-stamp-second-text-header h2 {
+        font-size: 1.667vw;
+    }
+    .section-each-stamp-second-text-header h2:before {
+        bottom: -0.972vw;
+        width: 12.5vw;
+        height: 0.208vw;
+    }
+    .section-each-stamp-second-text-detail {
+        margin-bottom: 1.944vw;
+    }
+    .section-each-stamp-second-text-detail p {
+        font-size: 1.25vw;
+    }
+    .section-each-stamp-second-detail-order {
+        gap: 0.556vw;
+        margin-bottom: 6.944vw;
+    }
+    .section-each-stamp-second-detail-order.wholesale-rubber-stamps-add {
+        margin-bottom: 4.861vw;
+    }
+    .section-each-stamp-second-detail-order-text p {
+        font-size: 1.25vw;
+    }
+    .section-each-stamp-second-detail-order-image {
+        width: 1.528vw;
+        height: 1.181vw;
+    }
+    .section-each-stamp-second-text-bottom {
+        width: 41.25vw;
+        height: 12.917vw;
+        border-radius: 1.111vw 10.139vw 1.111vw 1.111vw;
+        gap: 4.167vw;
+        padding: 2.778vw 0 0 5.556vw;
+    }
+    .section-each-stamp-second-text-bottom-box {
+        width: 5.833vw;
+        gap: 0.694vw;
+    }
+    .section-each-stamp-second-text-bottom-image-border {
+        width: 4.583vw;
+        height: 4.583vw;
+        border: 0.139vw solid #fff;
+    }
+    .section-each-stamp-second-text-bottom-image {
+        height: 2.431vw;
+    }
+    .section-each-stamp-second-text-bottom-detail p {
+        font-size: 0.972vw;
+    }
+    .section-each-stamp-second-image {
+        height: 31.667vw;
+    }
+    .section-each-stamp-third {
+        height: 42.222vw;
+        padding-top: 7.361vw;
+    }
+    .section-each-stamp-third-header {
+        margin-bottom: 5.556vw;
+    }
+    .section-each-stamp-third-header h2 {
+        font-size: 1.667vw;
+    }
+    .section-each-stamp-third-header h2::before {
+        bottom: -1.667vw;
+        width: 12.5vw;
+        height: 0.208vw;
+    }
+    .section-each-stamp-third-header h2::after {
+        top: -4.861vw;
+        right: -7.5vw;
+        width: 9.236vw;
+        height: 9.236vw;
+    }
+    .section-each-stamp-third-wrapper-slide {
+        width: 84.444vw !important;
+        margin-bottom: 3.194vw;
+    }
+    .section-each-stamp-third-image {
+        height: 13.611vw;
+    }
+    .section-each-stamp-third-image img {
+        width: 13.056vw;
+        border-radius: 1.25vw;
+    }
+    .section-each-stamp-fourth {
+        height: 44.167vw;
+    }
+    .section-each-stamp-fourth-wrapper {
+        gap: 2.083vw;
+    }
+    .section-each-stamp-fourth-text-box {
+        width: 41.25vw;
+        height: 31.667vw;
+    }
+    .section-each-stamp-fourth-text-header {
+        margin-bottom: 3.056vw;
+    }
+    .section-each-stamp-fourth-text-header h2 {
+        font-size: 1.667vw;
+    }
+    .section-each-stamp-fourth-text-header h2:before {
+        bottom: -0.972vw;
+        width: 12.5vw;
+        height: 0.208vw;
+    }
+    .section-each-stamp-fourth-text-detail {
+        margin-bottom: 1.944vw;
+    }
+    .section-each-stamp-fourth-text-detail p {
+        font-size: 1.25vw;
+    }
+    .section-each-stamp-fourth-detail-order-text p {
+        font-size: 1.25vw;
+    }
+    .section-each-stamp-fourth-detail-order-image {
+        width: 1.528vw;
+        height: 1.181vw;
+    }
+    .section-each-stamp-fourth-text-bottom {
+        width: 41.25vw;
+        height: 12.917vw;
+        border-radius: 10.139vw 1.111vw 1.111vw 1.111vw;
+        gap: 4.167vw;
+        padding: 2.778vw 0 1.944vw 7.917vw;
+    }
+    .section-each-stamp-fourth-text-bottom-box {
+        width: 6.667vw;
+        gap: 0.694vw;
+    }
+    .section-each-stamp-fourth-text-bottom-image-border {
+        width: 4.583vw;
+        height: 4.583vw;
+        border: 0.139vw solid #fff;
+    }
+    .section-each-stamp-fourth-text-bottom-image {
+        height: 2.431vw;
+    }
+    .section-each-stamp-fourth-text-bottom-detail p {
+        font-size: 0.972vw;
+    }
+    .section-each-stamp-fourth-image {
+        height: 31.667vw;
+    }
+    .section-each-stamp-fifth {
+        height: 42.222vw;
+        padding-top: 7.361vw;
+    }
+    .section-each-stamp-fifth-header {
+        margin-bottom: 5.556vw;
+    }
+    .section-each-stamp-fifth-header h2 {
+        font-size: 1.667vw;
+    }
+    .section-each-stamp-fifth-header h2::before {
+        bottom: -1.667vw;
+        width: 12.5vw;
+        height: 0.208vw;
+    }
+    .section-each-stamp-fifth-header h2::after {
+        top: -4.861vw;
+        right: -7.5vw;
+        width: 9.236vw;
+        height: 9.236vw;
+    }
+    .section-each-stamp-fifth-wrapper-slide {
+        width: 84.444vw !important;
+        margin-bottom: 3.194vw;
+    }
+    .section-each-stamp-fifth-image {
+        height: 13.611vw;
+    }
+    .section-how-is-it-better {
+        height: 21.944vw;
+        padding: 5.417vw 0 0 7.639vw;
+    }
+    .section-how-is-it-better-wrapper {
+        width: 69.444vw;
+    }
+    .section-how-is-it-better-header {
+        margin-bottom: 3.75vw;
+    }
+    .section-how-is-it-better-header h2 {
+        font-size: 2.5vw;
+    }
+    .section-how-is-it-better-header h2:after {
+        bottom: -1.389vw;
+        width: 12.5vw;
+        height: 0.208vw;
+    }
+    .section-how-is-it-better-detail p {
+        font-size: 1.25vw;
+    }
+    .buy-button.stamp-ink-button {
+        width: 25.139vw;
+        height: 4.028vw;
+    }
+    .buy-button.design-logo-button {
+        width: 27.639vw;
+        height: 4.028vw;
+    }
+    .site-main.each-stamp .section-review {
+        height: 58.75vw;
+    }
+    .section-examples-of-trusted-brands {
+        height: 26.944vw;
+        padding-top: 5.972vw;
+    }
+    .section-examples-of-trusted-brands-wrapper {
+        gap: 5.139vw;
+    }
+    .section-examples-of-trusted-brands-header h2 {
+        font-size: 2.5vw;
+    }
+    .section-examples-of-trusted-brands-header h2:after {
+        bottom: -1.389vw;
+        width: 12.5vw;
+        height: 0.208vw;
+    }
+    .section-examples-of-trusted-brands-image-wrapper {
+        gap: 1.25vw;
+    }
+    .section-examples-of-trusted-brands-image {
+        width: 7.222vw;
+        height: 7.222vw;
+    }
+
+}
+
+
+@media screen and (max-width: 1439px) { 
+    .section-hero-each-stamp {
+        height: 23.333vw;
+    }
+    .section-hero-each-stamp-wrapper h1 {
+        font-size: 4.861vw;
+    }
+
+    .site-main.each-stamp .section-cheap-price {
+        padding: 1.944vw 6.667vw 0;
+    }
+    .site-main.each-stamp .cheap-price-right-on-target {
+        width: 54.5vw;
+    }
+    .site-main.each-stamp .cheap-price-image {
+        left: -3.472vw;
+    }
+    .site-main.each-stamp .cheap-price-bottom {
+        gap: 2.361vw;
+    }
+    .section-why-do-you-have-to-order {
+        height: 42.083vw;
+        padding-top: 9.306vw;
+    }
+    .section-why-do-you-have-to-order-wrapper {
+        gap: 4.583vw;
+    }
+    .section-why-do-you-have-to-order-header h2 {
+        font-size: 2.5vw;
+        width: 29.167vw;
+    }
+    .section-why-do-you-have-to-order-header h2::before {
+        top: -4.167vw;
+        right: -7.222vw;
+        width: 9.236vw;
+        height: 9.236vw;
+    }
+    .section-why-do-you-have-to-order-header h2::after {
+        bottom: -1.389vw;
+        width: 12.5vw;
+        height: 0.208vw;
+    }
+    .section-why-do-you-have-to-order-detail-wrapper {
+        gap: 1.389vw;
+    }
+    .section-why-do-you-have-to-order-detail-box {
+        width: 26.667vw;
+    }
+    .section-why-do-you-have-to-order-detail-image {
+        width: 5.139vw;
+        height: 5.139vw;
+        margin-bottom: 2.083vw;
+    }
+    .section-why-do-you-have-to-order-detail-header {
+        margin-bottom: 0.972vw;
+    }
+    .section-why-do-you-have-to-order-detail-header h3 {
+        font-size: 1.667vw;
+    }
+    .section-why-do-you-have-to-order-detail-text p {
+        font-size: 1.25vw;
+    }
+    .section-each-stamp-first {
+        height: 23.889vw;
+        padding: 1.944vw 7.778vw;
+    }
+    .trayang-breadcrumb a {
+        font-size: 0.972vw;
+    }
+    .trayang-breadcrumb + .cheap-price-header {
+        margin-top: 1.389vw;
+    }
+    .section-each-stamp-second-header {
+        padding: 5.417vw 0 0 7.639vw;
+        margin-bottom: 2.778vw;
+    }
+    .section-each-stamp-second-header h2 {
+        font-size: 2.5vw;
+    }
+    .section-each-stamp-second-header h2:after {
+        bottom: -1.389vw;
+        width: 12.5vw;
+        height: 0.208vw;
+    }
+    .section-each-stamp-second {
+        height: 42.778vw;
+        padding-top: 5.417vw;
+    }
+    .section-each-stamp-second-wrapper {
+        gap: 2.083vw;
+    }
+    .section-each-stamp-second-text-box {
+        width: 41.25vw;
+        height: 31.667vw;
+    }
+    .section-each-stamp-second-text-header {
+        margin-bottom: 3.056vw;
+    }
+    .section-each-stamp-second-text-header h2 {
+        font-size: 1.667vw;
+    }
+    .section-each-stamp-second-text-header h2:before {
+        bottom: -0.972vw;
+        width: 12.5vw;
+        height: 0.208vw;
+    }
+    .section-each-stamp-second-text-detail {
+        margin-bottom: 1.944vw;
+    }
+    .section-each-stamp-second-text-detail p {
+        font-size: 1.25vw;
+    }
+    .section-each-stamp-second-detail-order {
+        gap: 0.556vw;
+        margin-bottom: 6.944vw;
+    }
+    .section-each-stamp-second-detail-order.wholesale-rubber-stamps-add {
+        margin-bottom: 4.861vw;
+    }
+    .section-each-stamp-second-detail-order-text p {
+        font-size: 1.25vw;
+    }
+    .section-each-stamp-second-detail-order-image {
+        width: 1.528vw;
+        height: 1.181vw;
+    }
+    .section-each-stamp-second-text-bottom {
+        width: 41.25vw;
+        height: 12.917vw;
+        border-radius: 1.111vw 10.139vw 1.111vw 1.111vw;
+        gap: 4.167vw;
+        padding: 2.778vw 0 0 5.556vw;
+    }
+    .section-each-stamp-second-text-bottom-box {
+        width: 5.833vw;
+        gap: 0.694vw;
+    }
+    .section-each-stamp-second-text-bottom-image-border {
+        width: 4.583vw;
+        height: 4.583vw;
+        border: 0.139vw solid #fff;
+    }
+    .section-each-stamp-second-text-bottom-image {
+        height: 2.431vw;
+    }
+    .section-each-stamp-second-text-bottom-detail p {
+        font-size: 0.972vw;
+    }
+    .section-each-stamp-second-image {
+        height: 31.667vw;
+    }
+    .section-each-stamp-third {
+        height: 42.222vw;
+        padding-top: 7.361vw;
+    }
+    .section-each-stamp-third-header {
+        margin-bottom: 5.556vw;
+    }
+    .section-each-stamp-third-header h2 {
+        font-size: 1.667vw;
+    }
+    .section-each-stamp-third-header h2::before {
+        bottom: -1.667vw;
+        width: 12.5vw;
+        height: 0.208vw;
+    }
+    .section-each-stamp-third-header h2::after {
+        top: -4.861vw;
+        right: -7.5vw;
+        width: 9.236vw;
+        height: 9.236vw;
+    }
+    .section-each-stamp-third-wrapper-slide {
+        width: 84.444vw !important;
+        margin-bottom: 3.194vw;
+    }
+    .section-each-stamp-third-image {
+        height: 13.611vw;
+    }
+    .section-each-stamp-third-image img {
+        width: 13.056vw;
+        border-radius: 1.25vw;
+    }
+    .section-each-stamp-fourth {
+        height: 44.167vw;
+    }
+    .section-each-stamp-fourth-wrapper {
+        gap: 2.083vw;
+    }
+    .section-each-stamp-fourth-text-box {
+        width: 41.25vw;
+        height: 31.667vw;
+    }
+    .section-each-stamp-fourth-text-header {
+        margin-bottom: 3.056vw;
+    }
+    .section-each-stamp-fourth-text-header h2 {
+        font-size: 1.667vw;
+    }
+    .section-each-stamp-fourth-text-header h2:before {
+        bottom: -0.972vw;
+        width: 12.5vw;
+        height: 0.208vw;
+    }
+    .section-each-stamp-fourth-text-detail {
+        margin-bottom: 1.944vw;
+    }
+    .section-each-stamp-fourth-text-detail p {
+        font-size: 1.25vw;
+    }
+    .section-each-stamp-fourth-detail-order-text p {
+        font-size: 1.25vw;
+    }
+    .section-each-stamp-fourth-detail-order-image {
+        width: 1.528vw;
+        height: 1.181vw;
+    }
+    .section-each-stamp-fourth-text-bottom {
+        width: 41.25vw;
+        height: 12.917vw;
+        border-radius: 10.139vw 1.111vw 1.111vw 1.111vw;
+        gap: 4.167vw;
+        padding: 2.778vw 0 1.944vw 7.917vw;
+    }
+    .section-each-stamp-fourth-text-bottom-box {
+        width: 6.667vw;
+        gap: 0.694vw;
+    }
+    .section-each-stamp-fourth-text-bottom-image-border {
+        width: 4.583vw;
+        height: 4.583vw;
+        border: 0.139vw solid #fff;
+    }
+    .section-each-stamp-fourth-text-bottom-image {
+        height: 2.431vw;
+    }
+    .section-each-stamp-fourth-text-bottom-detail p {
+        font-size: 0.972vw;
+    }
+    .section-each-stamp-fourth-image {
+        height: 31.667vw;
+    }
+    .section-each-stamp-fifth {
+        height: 42.222vw;
+        padding-top: 7.361vw;
+    }
+    .section-each-stamp-fifth-header {
+        margin-bottom: 5.556vw;
+    }
+    .section-each-stamp-fifth-header h2 {
+        font-size: 1.667vw;
+    }
+    .section-each-stamp-fifth-header h2::before {
+        bottom: -1.667vw;
+        width: 12.5vw;
+        height: 0.208vw;
+    }
+    .section-each-stamp-fifth-header h2::after {
+        top: -4.861vw;
+        right: -7.5vw;
+        width: 9.236vw;
+        height: 9.236vw;
+    }
+    .section-each-stamp-fifth-wrapper-slide {
+        width: 84.444vw !important;
+        margin-bottom: 3.194vw;
+    }
+    .section-each-stamp-fifth-image {
+        height: 13.611vw;
+    }
+    .section-how-is-it-better {
+        height: 21.944vw;
+        padding: 5.417vw 0 0 7.639vw;
+    }
+    .section-how-is-it-better-wrapper {
+        width: 69.444vw;
+    }
+    .section-how-is-it-better-header {
+        margin-bottom: 3.75vw;
+    }
+    .section-how-is-it-better-header h2 {
+        font-size: 2.5vw;
+    }
+    .section-how-is-it-better-header h2:after {
+        bottom: -1.389vw;
+        width: 12.5vw;
+        height: 0.208vw;
+    }
+    .section-how-is-it-better-detail p {
+        font-size: 1.25vw;
+    }
+    .buy-button.stamp-ink-button {
+        width: 25.139vw;
+        height: 4.028vw;
+    }
+    .buy-button.design-logo-button {
+        width: 27.639vw;
+        height: 4.028vw;
+    }
+    .site-main.each-stamp .section-review {
+        height: 58.75vw;
+    }
+    .section-examples-of-trusted-brands {
+        height: 26.944vw;
+        padding-top: 5.972vw;
+    }
+    .section-examples-of-trusted-brands-wrapper {
+        gap: 5.139vw;
+    }
+    .section-examples-of-trusted-brands-header h2 {
+        font-size: 2.5vw;
+    }
+    .section-examples-of-trusted-brands-header h2:after {
+        bottom: -1.389vw;
+        width: 12.5vw;
+        height: 0.208vw;
+    }
+    .section-examples-of-trusted-brands-image-wrapper {
+        gap: 1.25vw;
+    }
+    .section-examples-of-trusted-brands-image {
+        width: 7.222vw;
+        height: 7.222vw;
+    }
+
+}
+
+@media screen and (max-width: 430px) { 
+    .section-hero-each-stamp {
+        background-image: url(../images/each-type-of-stamp/bg-hero-each-stamp-m.png);
+        height: 53.333vw;
+    }
+    .section-hero-each-stamp-wrapper h1 {
+        font-size: 8vw;
+    }
+    
+    .section-each-stamp-first {
+        position: relative;
+        height: 42.667vw;
+        padding: 4.267vw 3.867vw 0;
+        background-image: url(../images/section-cheap-price/background-our-cheap-price.png);
+        background-size: auto 19vw;
+        background-position: top right;
+        background-repeat: no-repeat;
+    }
+    .trayang-breadcrumb {
+        display: block;
+    }
+    .trayang-breadcrumb a {
+        font-size: 2.933vw;
+    }
+    .trayang-breadcrumb + .cheap-price-header {
+        margin-top: 2.389vw;
+    }
+
+    .section-each-stamp-second {
+        position: relative;
+        height: 162.667vw;
+        align-items: flex-start;
+    }
+    .section-each-stamp-second-wrapper {
+        gap: 2.083vw;
+        flex-direction: column;
+    }
+    .section-each-stamp-second-text-box {
+        width: 100%;
+        height: 91.667vw;
+        align-items: center;
+        padding: 0 5.333vw;
+    }
+    .section-each-stamp-second-text-header {
+        margin-bottom: 9.067vw;
+        width: 100%;
+    }
+    .section-each-stamp-second-text-header h2 {
+        font-size: 4.267vw;
+    }
+    .section-each-stamp-second-text-header h2:before {
+        bottom: -2.133vw;
+        width: 17.6vw;
+        height: 0.533vw;
+    }
+    .section-each-stamp-second-text-detail {
+        margin-bottom: 82.833vw;
+    }
+    .section-each-stamp-second-text-detail p {
+        font-size: 3.733vw;
+    }
+    .section-each-stamp-second-text-bottom {
+        width: 89.333vw;
+        height: 33.6vw;
+        border-radius: 3.111vw 25.139vw 3.111vw 3.111vw;
+        gap: 7.467vw;
+        padding: 5.867vw 0 5vw 9.067vw;
+    }
+    .section-each-stamp-second-text-bottom-box {
+        width: 18.133vw;
+        gap: 1.394vw;
+    }
+    .section-each-stamp-second-text-bottom-image-border {
+        width: 12.267vw;
+        height: 12.267vw;
+        border: 0.533vw solid #fff;
+    }
+    .section-each-stamp-second-text-bottom-image {
+        height: 6.4vw;
+    }
+    .section-each-stamp-second-text-bottom-detail p {
+        font-size: 3.2vw;
+    }
+    .section-each-stamp-second-image {
+        height: 68.8vw;
+    }
+    .section-each-stamp-second-image-box {
+        position: absolute;
+        top: 44vw;
+    }
+    
+    .section-each-stamp-third {
+        height: 112vw;
+        padding-top: 16vw;
+    }
+    .section-each-stamp-third-header {
+        margin-bottom: 8vw;
+        padding-left: 5.333vw;
+    }
+    .section-each-stamp-third-header h2 {
+        font-size: 4.267vw;
+        line-height: 1.4;
+    }
+    .section-each-stamp-third-header h2::before {
+        bottom: -2.133vw;
+        width: 17.6vw;
+        height: 0.533vw;
+    }
+    .section-each-stamp-third-header h2::after {
+        top: -6.861vw;
+        right: -16.5vw;
+        width: 19.533vw;
+        height: 19.533vw;
+    }
+    .section-each-stamp-third-wrapper-container {
+        overflow-x: scroll;
+        width: 100vw;
+        padding-left: 5.333vw;
+    }
+    .section-each-stamp-third-wrapper-slide {
+        margin-bottom: 8vw;
+        width: max-content !important;
+    }
+    .section-each-stamp-third-image {
+        height: 41.333vw;
+        width: 41.333vw;
+    }
+    .section-each-stamp-third-image img {
+        width: 38.056vw;
+        border-radius: 4vw;
+    }
+    .section-each-stamp-fourth {
+        position: relative;
+        height: 177.333vw;
+        align-items: flex-start;
+    }
+    .section-each-stamp-fourth-wrapper {
+        gap: 2.083vw;
+        flex-direction: column;
+    }
+    .section-each-stamp-fourth-text-box {
+        width: 100%;
+        height: 91.667vw;
+        align-items: center;
+        padding: 16.533vw 5.333vw 0;
+    }
+    .section-each-stamp-fourth-text-header {
+        margin-bottom: 9.067vw;
+        width: 100%;
+    }
+    .section-each-stamp-fourth-text-header h2 {
+        font-size: 4.267vw;
+    }
+    .section-each-stamp-fourth-text-header h2:before {
+        bottom: -2.133vw;
+        width: 17.6vw;
+        height: 0.533vw;
+    }
+    .section-each-stamp-fourth-text-detail {
+        margin-bottom: 82.833vw;
+    }
+    .section-each-stamp-fourth-text-detail p {
+        font-size: 3.733vw;
+    }
+    .section-each-stamp-fourth-text-bottom {
+        width: 89.333vw;
+        height: 33.6vw;
+        border-radius: 3.111vw 25.139vw 3.111vw 3.111vw;
+        gap: 7.467vw;
+        padding: 5.867vw 0 5vw 3vw;
+    }
+    .section-each-stamp-fourth-text-bottom-box {
+        width: 22.133vw;
+        gap: 1.394vw;
+    }
+    .section-each-stamp-fourth-text-bottom-image-border {
+        width: 12.267vw;
+        height: 12.267vw;
+        border: 0.533vw solid #fff;
+    }
+    .section-each-stamp-fourth-text-bottom-image {
+        height: 6.4vw;
+    }
+    .section-each-stamp-fourth-text-bottom-detail p {
+        font-size: 3.2vw;
+    }
+    .section-each-stamp-fourth-image {
+        height: 68.8vw;
+    }
+    .section-each-stamp-fourth-image-box {
+        position: absolute;
+        top: 60vw;
+    }
+    
+    
+    .section-each-stamp-fifth {
+        height: 112vw;
+        padding-top: 16vw;
+    }
+    .section-each-stamp-fifth-header {
+        margin-bottom: 8vw;
+        padding-left: 5.333vw;
+    }
+    .section-each-stamp-fifth-header h2 {
+        font-size: 4.267vw;
+        line-height: 1.4;
+    }
+    .section-each-stamp-fifth-header h2::before {
+        bottom: -2.133vw;
+        width: 17.6vw;
+        height: 0.533vw;
+    }
+    .section-each-stamp-fifth-header h2::after {
+        top: -6.861vw;
+        right: -16.5vw;
+        width: 19.533vw;
+        height: 19.533vw;
+    }
+    .section-each-stamp-fifth-wrapper-container {
+        overflow-x: scroll;
+        width: 100vw;
+        padding-left: 5.333vw;
+    }
+    .section-each-stamp-fifth-wrapper-slide {
+        margin-bottom: 8vw;
+        width: max-content !important;
+    }
+    .section-each-stamp-fifth-image {
+        height: 41.333vw;
+        width: 41.333vw;
+    }
+
+
+    .site-main.each-stamp .section-order-step-number {
+        display: none;
+    }
+    .site-main.each-stamp .section-order-step-box {
+        padding-top: 0;
+        justify-content: center;
+    }
+
+
+    .site-main.each-stamp .section-cheap-price {
+        padding: 4.267vw 5.333vw 0;
+        background-size: auto 23.6vw;
+    }
+    .site-main.each-stamp .section-cheap-price-wrapper {
+        align-items: flex-start;
+        margin-top: 7vw;
+    }
+    .site-main.each-stamp .cheap-price-right-on-target {
+        width: 100%;
+    }
+    .site-main.each-stamp .cheap-price-image {
+        position: absolute;
+        top: 6vw;
+        left: 66vw;
+    }
+    .site-main.each-stamp .cheap-price-bottom {
+        gap: 4.361vw;
+        flex-direction: column;
+        bottom: 6vw;
+    }
+    .section-why-do-you-have-to-order {
+        height: 122.667vw;
+        background-color: transparent;
+        justify-content: flex-start;
+        padding: 9.306vw 5.333vw 0;
+    }
+    .section-why-do-you-have-to-order-header h2 {
+        font-size: 5.333vw;
+        width: 78vw;
+    }
+    .section-why-do-you-have-to-order-header h2::after {
+        bottom: -1.389vw;
+        width: 17.6vw;
+        height: 0.533vw;
+    }
+    .section-why-do-you-have-to-order-header h2::before {
+        top: -7.167vw;
+        right: -16.222vw;
+        width: 19.236vw;
+        height: 19.236vw;
+    }
+    .section-why-do-you-have-to-order-wrapper {
+        gap: 8.533vw;
+    }
+    .section-why-do-you-have-to-order-detail-wrapper {
+        gap: 9.6vw;
+        flex-direction: column;
+    }
+    .section-why-do-you-have-to-order-detail-box {
+        position: relative;
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 29.333vw;
+
+    }
+    .section-why-do-you-have-to-order-detail-image {
+        position: absolute;
+        top: 0;
+        left: -15.667vw;
+        width: 12.8vw;
+        height: 12.8vw;
+        margin-bottom: 0;
+    }
+    .section-why-do-you-have-to-order-detail-header h3 {
+        font-size: 4vw;
+    }
+    .section-why-do-you-have-to-order-detail-text p {
+        font-size: 3.733vw;
+        text-align: left;
+        width: 76vw;
+    }
+    .section-why-do-you-have-to-order-detail-header {
+        margin-bottom: 2vw;
+    }
+    .section-each-stamp-second-header {
+        padding: 5.417vw 5.333vw 0;
+        margin-bottom: 10.778vw;
+    }
+    .section-each-stamp-second-header h2 {
+        font-size: 5.333vw;
+    }
+    .section-each-stamp-second-header h2:after {
+        bottom: -1.389vw;
+        width: 17.6vw;
+        height: 0.533vw;
+    }
+
+    .section-each-stamp-second {
+        background-color: #F4F5F7;
+        padding-top: 9vw;
+    }
+
+    .section-each-stamp-second-text-header h2 {
+        font-size: 5.333vw;
+        color: #000;
+    }
+    .section-each-stamp-second-text-header h2:before {
+        content: unset;
+    }
+    .section-each-stamp-second-text-header {
+        margin-bottom: 4.067vw;
+    }
+    .section-each-stamp-second-detail-order {
+        display: none;
+    }
+    .section-each-stamp-second-image-box {
+        top: 42vw;
+    }
+    .section-each-stamp-third-header h2 {
+        color: #ED2024;
+    }
+    .section-each-stamp-third-header h2::before {
+        background-color: #ED2024;
+    }
+    .section-each-stamp-fourth-text-header h2 {
+        font-size: 5.333vw;
+        color: #000;
+    }
+    .section-each-stamp-fourth-text-header h2:before {
+        content: unset;
+    }
+    .section-each-stamp-fourth-text-header {
+        margin-bottom: 5.067vw;
+    }
+    .section-each-stamp-fourth-image-box {
+        position: absolute;
+        top: 55vw;
+    }
+    .section-each-stamp-fifth {
+        background-color: #fff;
+    }
+    .buy-button.stamp-ink-button {
+        width: 74.667vw;
+        height: 12.028vw;
+    }
+    .buy-button.design-logo-button {
+        width: 81.867vw;
+        height: 11.8vw;
+    }
+    .section-how-is-it-better {
+        height: 106.667vw;
+        padding: 5.417vw 5.333vw 0;
+        background-color: #F4F5F7;
+    }
+    .section-how-is-it-better-header h2 {
+        font-size: 5.333vw;
+        line-height: 1.4;
+    }
+    .section-how-is-it-better-detail p {
+        font-size: 4vw;
+        line-height: 1.6;
+    }
+    .section-how-is-it-better-header h2:after {
+        bottom: -2.133vw;
+        width: 17.6vw;
+        height: 0.533vw;
+    }
+    .section-how-is-it-better-wrapper {
+        width: 100%;
+    }
+    .section-how-is-it-better-header {
+        margin-bottom: 10.75vw;
+    }
+    .site-main.each-stamp .section-review {
+        height: 188.75vw;
+    }
+    .section-examples-of-trusted-brands-header h2 {
+        font-size: 5.333vw;
+    }
+    .section-examples-of-trusted-brands-header h2:after {
+        bottom: -2.1vw;
+        width: 17.6vw;
+        height: 0.533vw;
+    }
+    .section-examples-of-trusted-brands {
+        height: 71.944vw;
+        padding-top: 16.972vw;
+        padding-left: 5.333vw;
+        justify-content: flex-start;
+    }
+    .section-examples-of-trusted-brands-image-wrapper-container {
+        overflow-x: scroll;
+        width: 100vw;
+    }
+    .section-examples-of-trusted-brands-image-wrapper {
+        gap: 4.25vw;
+        width: max-content;
+    }
+    .section-examples-of-trusted-brands-image {
+        width: 20.8vw;
+        height: 20.8vw;
+    }
+    .section-examples-of-trusted-brands-wrapper {
+        gap: 10.139vw;
+    }
+    .section-each-stamp-fifth-header h2 {
+        color: #ED2024;
+    }
+    .section-each-stamp-fifth-header h2::before {
+        background-color: #ED2024;
+    }
+    .section-each-stamp-fourth-image-box.little-move {
+        top: 44vw;
+    }
+}

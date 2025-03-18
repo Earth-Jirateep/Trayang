@@ -1,0 +1,382 @@
+.section-hero-urgent-rubber-stamp {
+    background-image: url(../images/urgent-rubber-stamp-making/bg-hero-urgent-rubber-stamp-making.png);
+    height: 336px;
+}
+.section-hero-urgent-rubber-stamp-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-hero-urgent-rubber-stamp-wrapper h1 {
+    font-size: 70px;
+    font-family: "ibm-plex-sans-thai-regular";
+    color: #fff;
+    line-height: 1;
+}
+
+.site-main.self-inking .cheap-price-image {
+    position: relative;
+    left: -42px;
+}
+
+.site-main.urgent-stamp .section-date-stamp-second {
+    height: 456px;
+    background-image: url();
+}
+
+.site-main.urgent-stamp .section-order .buy-button {
+    display: block;
+    margin-bottom: 40px;
+}
+
+.site-main.urgent-stamp .section-order-step-wrapper {
+    margin-bottom: 40px;
+}
+
+
+.site-main.urgent-stamp .section-order {
+    height: 1016px;
+    padding-top: 66px;
+}
+
+
+
+/** **/
+
+.section-price-and-minimum {
+    display: flex;
+    height: 246px;
+    justify-content: flex-start;
+    padding-left: 110px;
+}
+.section-price-and-minimum-wrapper {
+    display: flex;
+    gap: 300px;
+}
+.section-price-and-minimum-header {
+    display: flex;
+}
+.section-price-and-minimum-header h2 {
+    position: relative;
+    font-family: "ibm-plex-sans-thai-bold";
+    font-size: 36px;
+    color: #ED2024;
+    line-height: 1.4;
+    width: 360px;
+}
+.section-price-and-minimum-header h2::before {
+    content: "";
+    position: absolute;
+    top: -60px;
+    right: -104px;
+    width: 133px;
+    height: 133px;
+    background-image: url(../images/order/trayang-image-blue.png);
+    background-size: auto 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.section-price-and-minimum-header h2::after {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    width: 180px;
+    height: 3px;
+    background-color: #ED2024;
+}
+.section-price-and-minimum-detail {
+    display: flex;
+    width: 386px;
+}
+.section-price-and-minimum-detail-header {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.section-price-and-minimum-detail-header h3 {
+    font-family: "ibm-plex-sans-thai-bold";
+    font-size: 18px;
+    color: #0C2E63;
+    line-height: 1;
+}
+.section-price-and-minimum-detail-header p {
+    font-family: "ibm-plex-sans-thai-medium";
+    font-size: 18px;
+    color: #0C2E63;
+    line-height: 1.5;
+}
+
+.section-order-step-description-urgent {
+    width: 346px;
+    display: flex;
+    margin-bottom: 40px;
+}
+.section-order-step-description-urgent p {
+    font-family: "ibm-plex-sans-thai-medium";
+    font-size: 16px;
+    color: #0C2E63;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.site-main.urgent-stamp .section-order {
+    height: 1200px;
+}
+
+.site-main.urgent-stamp .section-frequently-asked-questions {
+    background-color: #F4F5F7;
+}
+
+
+@media screen and (min-width: 1441px) {
+    .section-hero-urgent-rubber-stamp {
+        height: 23.333vw;
+    }
+    .section-hero-urgent-rubber-stamp-wrapper h1 {
+        font-size: 4.861vw;
+    }
+
+    .site-main.self-inking .cheap-price-image {
+        left: -2.917vw;
+    }
+
+    .site-main.self-inking .section-date-stamp-second {
+        height: 31.667vw;
+    }
+
+    .site-main.urgent-stamp .section-order .buy-button {
+        margin-bottom: 2.778vw;
+    }
+    
+    .site-main.urgent-stamp .section-order-step-wrapper {
+        margin-bottom: 2.778vw;
+    }
+
+    .site-main.urgent-stamp .section-order {
+        height: 70.556vw;
+        padding-top: 4.583vw;
+    }
+
+    .site-main.urgent-stamp .section-date-stamp-second {
+        height: 31.667vw;
+    }
+
+    /** **/
+
+    .section-price-and-minimum {
+        height: 17.083vw;
+        padding-left: 7.639vw;
+    }
+    .section-price-and-minimum-wrapper {
+        gap: 20.833vw;
+    }
+    .section-price-and-minimum-header h2 {
+        font-size: 2.5vw;
+        width: 25vw;
+
+    }
+    .section-price-and-minimum-header h2::before {
+        top: -4.167vw;
+        right: -7.222vw;
+        width: 9.236vw;
+        height: 9.236vw;
+    }
+    .section-price-and-minimum-header h2::after {
+        bottom: -1.389vw;
+        left: 0;
+        width: 12.5vw;
+        height: 0.208vw;
+    }
+    .section-price-and-minimum-detail {
+        width: 26.806vw;
+    }
+    .section-price-and-minimum-detail-header {
+        gap: 0.694vw;
+    }
+    .section-price-and-minimum-detail-header h3 {
+        font-size: 1.25vw;
+    }
+    .section-price-and-minimum-detail-header p {
+        font-size: 1.25vw;
+    }
+    .section-order-step-description-urgent {
+        width: 24.028vw;
+        margin-bottom: 2.778vw;
+    }
+    .section-order-step-description-urgent p {
+        font-size: 1.111vw;
+    }
+    .site-main.urgent-stamp .section-order {
+        height: 83.333vw;
+    }
+}
+
+@media screen and (max-width: 1439px) {
+    .section-hero-urgent-rubber-stamp {
+        height: 23.333vw;
+    }
+    .section-hero-urgent-rubber-stamp-wrapper h1 {
+        font-size: 4.861vw;
+    }
+
+    .site-main.self-inking .cheap-price-image {
+        left: -2.917vw;
+    }
+
+    .site-main.urgent-stamp .section-date-stamp-second {
+        height: 31.667vw;
+    }
+
+    .site-main.urgent-stamp .section-order .buy-button {
+        margin-bottom: 2.778vw;
+    }
+    
+    .site-main.urgent-stamp .section-order-step-wrapper {
+        margin-bottom: 2.778vw;
+    }
+
+    .site-main.urgent-stamp .section-order {
+        height: 70.556vw;
+        padding-top: 4.583vw;
+    }
+
+    /** **/
+
+    .section-price-and-minimum {
+        height: 17.083vw;
+        padding-left: 7.639vw;
+    }
+    .section-price-and-minimum-wrapper {
+        gap: 20.833vw;
+    }
+    .section-price-and-minimum-header h2 {
+        font-size: 2.5vw;
+        width: 25vw;
+
+    }
+    .section-price-and-minimum-header h2::before {
+        top: -4.167vw;
+        right: -7.222vw;
+        width: 9.236vw;
+        height: 9.236vw;
+    }
+    .section-price-and-minimum-header h2::after {
+        bottom: -1.389vw;
+        left: 0;
+        width: 12.5vw;
+        height: 0.208vw;
+    }
+    .section-price-and-minimum-detail {
+        width: 26.806vw;
+    }
+    .section-price-and-minimum-detail-header {
+        gap: 0.694vw;
+    }
+    .section-price-and-minimum-detail-header h3 {
+        font-size: 1.25vw;
+    }
+    .section-price-and-minimum-detail-header p {
+        font-size: 1.25vw;
+    }
+    .section-order-step-description-urgent {
+        width: 24.028vw;
+        margin-bottom: 2.778vw;
+    }
+    .section-order-step-description-urgent p {
+        font-size: 1.111vw;
+    }
+    .site-main.urgent-stamp .section-order {
+        height: 83.333vw;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .section-hero-urgent-rubber-stamp {
+        background-image: url(../images/urgent-rubber-stamp-making/bg-hero-urgent-rubber-stamp-making-m.png);
+        height: 53.333vw;
+    }
+    .section-hero-urgent-rubber-stamp-wrapper h1 {
+        font-size: 8vw;
+    }
+    .site-main.self-inking .cheap-price-image {
+        position: absolute;
+        left: 66vw
+    }
+
+    .site-main.self-inking.urgent-stamp .cheap-price-image {
+        position: absolute;
+        left: 79.083vw;
+    }
+
+    .site-main.urgent-stamp .section-date-stamp-second {
+        height: 159.667vw;
+    }
+
+    .site-main.urgent-stamp .section-order-step-wrapper {
+        margin-bottom: 10.667vw;
+    }
+
+    .site-main.urgent-stamp .section-order .buy-button {
+        margin-bottom: 10.667vw;
+    }
+    
+    .site-main.urgent-stamp .section-order {
+        height: 286.556vw;
+        padding-top: 29.583vw;
+    }
+
+    /** **/
+
+    .section-price-and-minimum {
+        height: 66.267vw;
+        padding: 0 5.333vw;
+    }
+    .section-price-and-minimum-wrapper {
+        flex-direction: column;
+        gap: 10.833vw;
+    }
+    .section-price-and-minimum-header h2 {
+        font-size: 5.333vw;
+        width: 50vw;
+
+    }
+    .section-price-and-minimum-header h2::before {
+        top: -7.167vw;
+        right: -16.222vw;
+        width: 19.236vw;
+        height: 19.236vw;
+    }
+    .section-price-and-minimum-header h2::after {
+        bottom: -1.389vw;
+        width: 17.6vw;
+        height: 0.533vw;
+    }
+    .section-price-and-minimum-detail {
+        width: 100%;
+    }
+    .section-price-and-minimum-detail-header {
+        gap: 0.694vw;
+    }
+    .section-price-and-minimum-detail-header h3 {
+        font-size: 4.267vw;
+    }
+    .section-price-and-minimum-detail-header p {
+        font-size: 4.267vw;
+    }
+    .section-order-step-description-urgent {
+        width: 90vw;
+        margin-bottom: 10.667vw;
+    }
+    .section-order-step-description-urgent p {
+        font-size: 4.267vw;
+    }
+    .site-main.urgent-stamp .section-order {
+        height: 368vw;
+    }
+
+
+    .section-order-header.urgent-page h2 {
+        width: 76vw;
+    }
+}

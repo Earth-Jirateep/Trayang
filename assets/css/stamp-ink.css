@@ -1,0 +1,97 @@
+.section-hero-stamp-ink {
+    background-image: url(../images/stamp-ink/bg-hero-stamp-ink.png);
+    height: 336px;
+}
+.section-hero-stamp-ink-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-hero-stamp-ink-wrapper h1 {
+    font-size: 70px;
+    font-family: "ibm-plex-sans-thai-regular";
+    color: #fff;
+    line-height: 1;
+}
+
+.site-main.stamp-ink .section-dete-stamp-second-detail-text {
+    flex-direction: column;
+    margin-bottom: 204px;
+}
+
+.site-main.stamp-ink .section-dete-stamp-second-detail-box {
+    justify-content: flex-start;
+    
+}
+
+@media screen and (min-width: 1441px) {
+    .section-hero-stamp-ink {
+        height: 23.333vw;
+    }
+    .section-hero-stamp-ink-wrapper h1 {
+        font-size: 4.861vw;
+    }
+
+    .site-main.stamp-ink .section-date-stamp-second {
+        height: 47.639vw;
+    }
+
+    .site-main.stamp-ink .section-dete-stamp-second-detail-text {
+        margin-bottom: 14.167vw;
+    }
+    
+}
+
+@media screen and (max-width: 1439px) {
+    .section-hero-stamp-ink {
+        height: 23.333vw;
+    }
+    .section-hero-stamp-ink-wrapper h1 {
+        font-size: 4.861vw;
+    }
+
+    .site-main.stamp-ink .section-date-stamp-second {
+        height: 47.639vw;
+    }
+
+    .site-main.stamp-ink .section-dete-stamp-second-detail-text {
+
+        margin-bottom: 14.167vw;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .section-hero-stamp-ink {
+        background-image: url(../images/stamp-ink/bg-hero-stamp-ink-m.png);
+        height: 53.333vw;
+    }
+    .section-hero-stamp-ink-wrapper h1 {
+        font-size: 8vw;
+    }
+
+    .site-main.stamp-ink .section-date-stamp-second {
+        height: 163.733vw;
+    }
+
+    .site-main.stamp-ink .section-dete-stamp-second-detail-text {
+        margin-bottom: 94.167vw;
+    }
+    
+    .site-main.stamp-ink .buy-button {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .section-dete-stamp-second-image-box {
+        top: 158vw;
+    }
+
+    .section-dete-stamp-second-image-box.name-stamp {
+        top: 168vw;
+    }
+
+    .section-dete-stamp-second-image-box.wholesale-stamp {
+        top: 178vw;
+    }
+
+}

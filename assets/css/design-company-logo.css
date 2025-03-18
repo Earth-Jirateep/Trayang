@@ -1,0 +1,584 @@
+.section-hero-design-company-logo {
+    background-image: url(../images/design-company-logo/bg-hero-design-company-logo.png);
+    height: 336px;
+}
+.section-hero-design-company-logo-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-hero-design-company-logo-wrapper h1 {
+    font-size: 70px;
+    font-family: "ibm-plex-sans-thai-regular";
+    color: #fff;
+    line-height: 1;
+}
+
+.site-main.design-logo .section-date-stamp-second {
+    height: 484px;
+    background-image: url();
+}
+
+
+.section-work-step {
+    height: 520px;
+    align-items: flex-start;
+    padding-top: 116px;
+}
+.section-work-step-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section-work-step-header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 112px;
+}
+.section-work-step-header h2 {
+    position: relative;
+    font-family: "ibm-plex-sans-thai-bold";
+    font-size: 36px;
+    color: #ED2024;
+}
+.section-work-step-header h2:before {
+    content: "";
+    position: absolute;
+    top: -58px;
+    right: -106px;
+    width: 133px;
+    height: 133px;
+    background-image: url(../images/order/trayang-image-blue.png);
+    background-size: auto 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.section-work-step-header h2:after {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    width: 180px;
+    height: 3px;
+    background-color: #ED2024;
+}
+.section-work-step-step-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    margin-bottom: 56px;
+}
+.section-work-step-step-box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 384px;
+    height: 159px;
+    background-color: #ED2024;
+    border-radius: 18px;
+    padding-top: 64px;
+    transition: all 0.4s ease;
+}
+.section-work-step-step-box:hover {
+    background-color: #0C2E63;
+}
+.section-work-step-step-icon {
+    position: absolute;
+    top: -28px;
+    display: flex;
+    width: 74px;
+    height: 74px;
+    background-color: #F4F5F7;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.4s ease;
+}
+.section-work-step-step-icon img {
+    width: auto;
+    height: 44px;
+}
+.section-work-step-step-description-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+.section-work-step-step-number {
+    font-family: "ibm-plex-sans-thai-bold";
+    font-size: 64px;
+    color: #fff;
+    line-height: 1;
+    transition: all 0.4s ease;
+}
+.section-work-step-step-datail {
+    font-family: "ibm-plex-sans-thai-regular";
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.4;
+    transition: all 0.4s ease;
+}
+
+
+.section-example-design-logo-load-more {
+    display: flex;
+    align-items: flex-start;
+    height: auto;
+    background-color: #F4F5F7;
+    padding-top: 126px;
+}
+.section-example-design-logo-load-more-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 120px;
+}
+.section-example-design-logo-load-more-header {
+    display: flex;
+    margin-bottom: 70px;
+}
+.section-example-design-logo-load-more-header h2 {
+    position: relative;
+    font-family: "ibm-plex-sans-thai-bold";
+    font-size: 36px;
+    color: #ED2024;
+    line-height: 1;
+}
+.section-example-design-logo-load-more-header h2:before {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    width: 180px;
+    height: 3px;
+    background-color: #ED2024;
+}
+.section-example-design-logo-load-more-header h2:after {
+    content: "";
+    position: absolute;
+    top: -70px;
+    right: -108px;
+    width: 133px;
+    height: 133px;
+    background-image: url(../images/order/trayang-image-blue.png);
+    background-size: auto 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.section-example-design-logo-load-more-image-container {
+    width: 1216px;
+    height: auto;
+    background-color: #fff;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    padding: 26px 0 78px;
+    border-radius: 20px;
+}
+.section-example-design-logo-load-more-image-wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.section-example-design-logo-load-more-image {
+    display: none;
+    height: 169px;
+}
+.section-example-design-logo-load-more-image img {
+    width: auto;
+}
+.section-example-design-logo-load-more-image-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 78px;
+}
+.section-example-design-logo-load-more-image-button button {
+    font-family: "ibm-plex-sans-thai-regular";
+    font-size: 16px;
+    color: #0C2E63;
+    line-height: 1;
+    text-decoration: underline;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+.order-design-logo-button {
+    display: inline-block;
+    width: 238px;
+    height: 48px;
+    background-image: url(../images/design-company-logo/order-design-logo-button.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: all 0.4s ease;
+}
+
+.order-design-logo-button:hover {
+    background-image: url(../images/design-company-logo/order-design-logo-button-h.png);
+
+}
+
+@media screen and (min-width: 1441px) {
+    .section-hero-design-company-logo {
+        height: 23.333vw;
+    }
+    .section-hero-design-company-logo-wrapper h1 {
+        font-size: 4.861vw;
+    }
+
+    .site-main.design-logo .section-date-stamp-second {
+        height: 33.611vw;
+    }
+    
+
+    .section-work-step {
+        height: 36.583vw;
+        padding-top: 8.056vw;
+    }
+    .section-work-step-header {
+        margin-bottom: 7.778vw;
+    }
+    .section-work-step-header h2 {
+        font-size: 2.5vw;
+    }
+    .section-work-step-header h2:before {
+        top: -4.028vw;
+        right: -7.361vw;
+        width: 9.236vw;
+        height: 9.236vw;
+    }
+    .section-work-step-header h2:after {
+        bottom: -1.389vw;
+        width: 12.5vw;
+        height: 0.208vw;
+    }
+    .section-work-step-step-wrapper {
+        gap: 2.222vw;
+        margin-bottom: 3.889vw;
+    }
+    .section-work-step-step-box {
+        width: 26.667vw;
+        height: 11.042vw;
+        border-radius: 1.25vw;
+        padding-top: 4.444vw;
+    }
+    .section-work-step-step-icon {
+        top: -1.944vw;
+        width: 5.139vw;
+        height: 5.139vw;
+    }
+    .section-work-step-step-icon img {
+        height: 3.056vw;
+    }
+    .section-work-step-step-description-box {
+        gap: 1.111vw;
+    }
+    .section-work-step-step-number {
+        font-size: 4.444vw;
+    }
+    .section-work-step-step-datail {
+        font-size: 1.111vw;
+    }
+
+    .section-example-design-logo-load-more {
+        padding-top: 8.75vw;
+    }
+    .section-example-design-logo-load-more-wrapper {
+        padding-bottom: 8.333vw;
+    }
+    .section-example-design-logo-load-more-header {
+        margin-bottom: 4.861vw;
+    }
+    .section-example-design-logo-load-more-header h2 {
+        font-size: 2.5vw;
+    }
+    .section-example-design-logo-load-more-header h2:before {
+        bottom: -1.389vw;
+        width: 8.75vw;
+        height: 0.208vw;
+    }
+    .section-example-design-logo-load-more-header h2:after {
+        top: -4.861vw;
+        right: -7.5vw;
+        width: 9.236vw;
+        height: 9.236vw;
+    }
+    .section-example-design-logo-load-more-image-container {
+        width: 84.444vw;
+        padding: 1.806vw 0 5.417vw;
+        border-radius: 1.389vw;
+    }
+    .section-example-design-logo-load-more-image-wrapper {
+        gap: 0.833vw;
+        margin-bottom: 2.778vw;
+    }
+    .section-example-design-logo-load-more-image {
+        height: 11.736vw;
+    }
+    .section-example-design-logo-load-more-image-button {
+        margin-bottom: 5.417vw;
+    }
+    .section-example-design-logo-load-more-image-button button {
+        font-size: 1.111vw;
+    }
+
+    .order-design-logo-button {
+        width: 16.528vw;
+        height: 3.333vw;
+    }
+    
+
+
+    
+}
+
+@media screen and (max-width: 1439px) {
+    .section-hero-design-company-logo {
+        height: 23.333vw;
+    }
+    .section-hero-design-company-logo-wrapper h1 {
+        font-size: 4.861vw;
+    }
+
+    .site-main.design-logo .section-date-stamp-second {
+        height: 33.611vw;
+    }
+
+    .section-work-step {
+        height: 36.583vw;
+        padding-top: 8.056vw;
+    }
+    .section-work-step-header {
+        margin-bottom: 7.778vw;
+    }
+    .section-work-step-header h2 {
+        font-size: 2.5vw;
+    }
+    .section-work-step-header h2:before {
+        top: -4.028vw;
+        right: -7.361vw;
+        width: 9.236vw;
+        height: 9.236vw;
+    }
+    .section-work-step-header h2:after {
+        bottom: -1.389vw;
+        width: 12.5vw;
+        height: 0.208vw;
+    }
+    .section-work-step-step-wrapper {
+        gap: 2.222vw;
+        margin-bottom: 3.889vw;
+    }
+    .section-work-step-step-box {
+        width: 26.667vw;
+        height: 11.042vw;
+        border-radius: 1.25vw;
+        padding-top: 4.444vw;
+    }
+    .section-work-step-step-icon {
+        top: -1.944vw;
+        width: 5.139vw;
+        height: 5.139vw;
+    }
+    .section-work-step-step-icon img {
+        height: 3.056vw;
+    }
+    .section-work-step-step-description-box {
+        gap: 1.111vw;
+    }
+    .section-work-step-step-number {
+        font-size: 4.444vw;
+    }
+    .section-work-step-step-datail {
+        font-size: 1.111vw;
+    }
+
+    .section-example-design-logo-load-more {
+        padding-top: 8.75vw;
+    }
+    .section-example-design-logo-load-more-wrapper {
+        padding-bottom: 8.333vw;
+    }
+    .section-example-design-logo-load-more-header {
+        margin-bottom: 4.861vw;
+    }
+    .section-example-design-logo-load-more-header h2 {
+        font-size: 2.5vw;
+    }
+    .section-example-design-logo-load-more-header h2:before {
+        bottom: -1.389vw;
+        width: 8.75vw;
+        height: 0.208vw;
+    }
+    .section-example-design-logo-load-more-header h2:after {
+        top: -4.861vw;
+        right: -7.5vw;
+        width: 9.236vw;
+        height: 9.236vw;
+    }
+    .section-example-design-logo-load-more-image-container {
+        width: 84.444vw;
+        padding: 1.806vw 0 5.417vw;
+        border-radius: 1.389vw;
+    }
+    .section-example-design-logo-load-more-image-wrapper {
+        gap: 0.833vw;
+        margin-bottom: 2.778vw;
+    }
+    .section-example-design-logo-load-more-image {
+        height: 11.736vw;
+    }
+    .section-example-design-logo-load-more-image-button {
+        margin-bottom: 5.417vw;
+    }
+    .section-example-design-logo-load-more-image-button button {
+        font-size: 1.111vw;
+    }
+
+    .order-design-logo-button {
+        width: 16.528vw;
+        height: 3.333vw;
+    }
+
+}
+
+@media screen and (max-width: 430px) {
+    .section-hero-design-company-logo {
+        background-image: url(../images/design-company-logo/bg-hero-design-company-logo-m.png);
+        height: 53.333vw;
+    }
+    .section-hero-design-company-logo-wrapper h1 {
+        font-size: 8vw;
+    }
+
+    .site-main.design-logo .section-date-stamp-second {
+        height: 116vw;
+        background-image: url();
+    }
+
+    .section-work-step {
+        height: 164vw;
+        padding-top: 26.667vw;
+        background-image: url(../images/section-cheap-price/background-our-cheap-price.png);
+        background-size: auto 24.533vw;
+        background-position: top right;
+        background-repeat: no-repeat;
+    }
+    .section-work-step-header {
+        margin-bottom: 13.333vw;
+        padding: 0;
+    }
+    .section-work-step-header h2 {
+        font-size: 6.4vw;
+    }
+    .section-work-step-header h2:before {
+        top: -7.28vw;
+        right: -15.361vw;
+        width: 19.2vw;
+        height: 19.2vw;
+    }
+    .section-work-step-header h2:after {
+        bottom: -1.2vw;
+        width: 17.6vw;
+        height: 0.533vw;
+    }
+    .section-work-step-step-wrapper {
+        gap: 4.8vw;
+        margin-bottom: 10.667vw;
+        flex-direction: column;
+    }
+    .section-work-step-step-box {
+        width: 89.6vw;
+        height: 28.8vw;
+        border-radius: 5.25vw;
+        padding-top: 8.533vw;
+        padding-left: 24vw;
+        align-items: flex-start;
+    }
+    .section-work-step-step-icon {
+        top: 0;
+        left: 0;
+        width: 17.6vw;
+        height: 100%;
+        border-radius: 5.25vw;
+    }
+    .section-work-step-step-icon img {
+        height: 10.133vw;
+    }
+    .section-work-step-step-description-box {
+        gap: 4.8vw;
+    }
+    .section-work-step-step-number {
+        font-family: "ibm-plex-sans-thai-light";
+        font-size: 12.8vw;
+    }
+    .section-work-step-step-datail {
+        font-size: 3.467vw;
+        line-height: 1.6;
+    }
+    
+
+    .section-example-design-logo-load-more {
+        padding-top: 13.867vw;
+    }
+    .section-example-design-logo-load-more-wrapper {
+        padding-bottom: 8.333vw;
+    }
+    .section-example-design-logo-load-more-header {
+        margin-bottom: 9.6vw;
+    }
+    .section-example-design-logo-load-more-header h2 {
+        font-size: 4.267vw;
+        line-height: 1.4;
+    }
+    .section-example-design-logo-load-more-header h2:before {
+        bottom: -2.667vw;
+        width: 17.6vw;
+        height: 0.533vw;
+    }
+    .section-example-design-logo-load-more-header h2:after {
+        top: -7.28vw;
+        right: -18.361vw;
+        width: 20.2vw;
+        height: 20.2vw;
+    }
+    .section-example-design-logo-load-more-image-container {
+        width: 84.444vw;
+        padding: 1.806vw 0 5.417vw;
+        border-radius: 1.389vw;
+        background-color: transparent;
+    }
+    .section-example-design-logo-load-more-image-wrapper {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.333vw;
+        margin-bottom: 7.467vw;
+    }
+    .section-example-design-logo-load-more-image {
+        height: 26.133vw;
+    }
+    .section-example-design-logo-load-more-image-button {
+        margin-bottom: 11.733vw;
+    }
+    .section-example-design-logo-load-more-image-button button {
+        font-size: 4.267vw;
+    }
+
+    .order-design-logo-button {
+        width: 64vw;
+        height: 13.333vw;
+    }
+
+}

@@ -1,0 +1,355 @@
+.section-hero-our-work {
+    background-image: url(../images/our-work/bg-hero-our-work.png);
+    height: 336px;
+}
+.section-hero-our-work-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-hero-our-work-wrapper h1 {
+    font-size: 70px;
+    font-family: "ibm-plex-sans-thai-regular";
+    color: #fff;
+    line-height: 1;
+}
+
+.section-our-work-load-more {
+    align-items: flex-start;
+    height: auto;
+    background-color: #F4F5F7;
+    padding: 46px 0 120px;
+}
+.section-our-work-load-more-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section-our-work-load-more-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+.section-our-work-load-more-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 592px;
+    height: 248px;
+    border-radius: 24px;
+    background-color: #fff;
+    gap: 46px;
+    box-shadow: 9px 10px 6px 0px rgba(234,234,236,0.64);
+}
+.section-our-work-load-more-box {
+    display: none;
+}
+
+
+.section-our-work-load-more-grid .section-our-work-load-more-box:nth-child(7) {
+    grid-column: span 2;
+    height: auto;
+    width: 100%;
+}
+.section-our-work-load-more-grid .section-our-work-load-more-box:nth-child(n+8) {
+    grid-column: auto;
+}
+.site-main.our-work .section-article-image-slide-container {
+    margin-bottom: 0;
+}
+.section-our-work-load-more-image {
+    width: 312px;
+    height: 247px;
+}
+.section-our-work-load-more-image img {
+    width: 100%;
+}
+.section-our-work-load-more-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 36px;
+}
+.section-our-work-load-more-text-header {
+    display: flex;
+    margin-bottom: 36px;
+}
+.section-our-work-load-more-text-header p {
+    position: relative;
+    font-family: "ibm-plex-sans-thai-regular";
+    font-size: 14px;
+    color: #ED2024;
+    line-height: 1;
+}
+.section-our-work-load-more-text-header p:before {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    width: 46px;
+    height: 2px;
+    left: -6px;
+    background-color: #ED2024;
+}
+.section-our-work-load-more-text-detail {
+    display: flex;
+    margin-bottom: 58px;
+}
+.section-our-work-load-more-text-detail p {
+    font-family: "ibm-plex-sans-thai-regular";
+    font-size: 20px;
+    color: #ED2024;
+    line-height: 1.5;
+    text-align: center;
+}
+.section-our-work-load-more-text-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.section-our-work-load-more-text-footer-image {
+    display: flex;
+    width: 17px;
+    height: 17px;
+}
+.section-our-work-load-more-text-footer-detail {
+    display: flex;
+}
+.section-our-work-load-more-text-footer-detail p {
+    font-family: "ibm-plex-sans-thai-medium";
+    font-size: 12px;
+    color: #0C2E63;
+    line-height: 1;
+}
+
+.section-our-work-load-more-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.section-our-work-load-more-button button {
+    font-family: "ibm-plex-sans-thai-regular";
+    font-size: 16px;
+    color: #0C2E63;
+    line-height: 1;
+    text-decoration: underline;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1441px) {
+    .section-hero-our-work {
+        height: 23.333vw;
+    }
+    .section-hero-our-work-wrapper h1 {
+        font-size: 4.861vw;
+    }
+
+
+    .section-our-work-load-more {
+        padding: 3.194vw 0 8.333vw;
+    }
+    .section-our-work-load-more-grid {
+        gap: 2.083vw;
+    }
+    .section-our-work-load-more-box {
+        width: 41.111vw;
+        height: 17.222vw;
+        border-radius: 1.667vw;
+        gap: 3.194vw;
+        box-shadow: 0.625vw 0.694vw 0.417vw 0px rgba(234,234,236,0.64);
+    }
+    
+    .section-our-work-load-more-image {
+        width: 21.667vw;
+        height: 17.153vw;
+    }
+    .section-our-work-load-more-text {
+        padding-top: 2.5vw;
+    }
+    .section-our-work-load-more-text-header {
+        margin-bottom: 2.5vw;
+    }
+    .section-our-work-load-more-text-header p {
+        font-size: 0.972vw;
+    }
+    .section-our-work-load-more-text-header p:before {
+        bottom: -0.694vw;
+        width: 3.194vw;
+        height: 0.139vw;
+        left: -0.417vw;
+    }
+    .section-our-work-load-more-text-detail {
+        margin-bottom: 4.028vw;
+    }
+    .section-our-work-load-more-text-detail p {
+        font-size: 1.389vw;
+    }
+    .section-our-work-load-more-text-footer {
+        gap: 0.556vw;
+    }
+    .section-our-work-load-more-text-footer-image {
+        width: 1.181vw;
+        height: 1.181vw;
+    }
+    .section-our-work-load-more-text-footer-detail p {
+        font-size: 0.833vw;
+    }
+    .section-our-work-load-more-button {
+        margin-top: 2.778vw;
+    }
+    .section-our-work-load-more-button button {
+        font-size: 1.111vw;
+    }
+
+
+}
+
+@media screen and (max-width: 1439px) {
+    .section-hero-our-work {
+        height: 23.333vw;
+    }
+    .section-hero-our-work-wrapper h1 {
+        font-size: 4.861vw;
+    }
+
+    .section-our-work-load-more {
+        padding: 3.194vw 0 8.333vw;
+    }
+    .section-our-work-load-more-grid {
+        gap: 2.083vw;
+    }
+    .section-our-work-load-more-box {
+        width: 41.111vw;
+        height: 17.222vw;
+        border-radius: 1.667vw;
+        gap: 3.194vw;
+        box-shadow: 0.625vw 0.694vw 0.417vw 0px rgba(234,234,236,0.64);
+    }
+    
+    .section-our-work-load-more-image {
+        width: 21.667vw;
+        height: 17.153vw;
+    }
+    .section-our-work-load-more-text {
+        padding-top: 2.5vw;
+    }
+    .section-our-work-load-more-text-header {
+        margin-bottom: 2.5vw;
+    }
+    .section-our-work-load-more-text-header p {
+        font-size: 0.972vw;
+    }
+    .section-our-work-load-more-text-header p:before {
+        bottom: -0.694vw;
+        width: 3.194vw;
+        height: 0.139vw;
+        left: -0.417vw;
+    }
+    .section-our-work-load-more-text-detail {
+        margin-bottom: 4.028vw;
+    }
+    .section-our-work-load-more-text-detail p {
+        font-size: 1.389vw;
+    }
+    .section-our-work-load-more-text-footer {
+        gap: 0.556vw;
+    }
+    .section-our-work-load-more-text-footer-image {
+        width: 1.181vw;
+        height: 1.181vw;
+    }
+    .section-our-work-load-more-text-footer-detail p {
+        font-size: 0.833vw;
+    }
+    .section-our-work-load-more-button {
+        margin-top: 2.778vw;
+    }
+    .section-our-work-load-more-button button {
+        font-size: 1.111vw;
+    }
+
+}
+
+@media screen and (max-width: 430px) {
+    .section-hero-our-work {
+        background-image: url(../images/our-work/bg-hero-our-work-m.png);
+        height: 53.333vw;
+    }
+    .section-hero-our-work-wrapper h1 {
+        font-size: 8vw;
+    }
+
+    .section-our-work-load-more {
+        padding: 12.8vw 0 26.667vw;
+    }
+    .section-our-work-load-more-grid {
+        display: block;
+    }
+    .section-our-work-load-more-box {
+        width: 89.6vw;
+        height: 36.267vw;
+        border-radius: 5.667vw;
+        gap: 5.867vw;
+        box-shadow: 10.625vw 10.694vw 10.417vw 0px rgba(234,234,236,0.74);
+        margin: 0 auto 6.933vw;
+    }
+
+    .section-our-work-load-more-image {
+        width: 41.6vw;
+        height: 36.267vw;
+    }
+    .section-our-work-load-more-text {
+        padding-top: 4.8vw;
+    }
+    .section-our-work-load-more-text-header {
+        margin-bottom: 3.733vw;
+    }
+    .section-our-work-load-more-text-header p {
+        font-size: 3.2vw;
+    }
+    .section-our-work-load-more-text-header p:before {
+        bottom: -0.694vw;
+        width: 7.467vw;
+        height: 0.533vw;
+        left: 0;
+    }
+    .section-our-work-load-more-text-detail {
+        margin-bottom: 5.333vw;
+    }
+    .section-our-work-load-more-text-detail p {
+        font-size: 3.733vw;
+    }
+    .section-our-work-load-more-text-footer {
+        gap: 1.6vw;
+    }
+    .section-our-work-load-more-text-footer-image {
+        width: 2.667vw;
+        height: 2.667vw;
+    }
+    .section-our-work-load-more-text-footer-detail p {
+        font-size: 2.667vw;
+    }
+    .section-our-work-load-more-button {
+        margin-top: 2.778vw;
+    }
+    .section-our-work-load-more-button button {
+        font-size: 4.267vw;
+    }
+
+}

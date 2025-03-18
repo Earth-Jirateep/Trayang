@@ -1,0 +1,43 @@
+.section-hero-wholestamp-stamp {
+    background-image: url(../images/wholesale-stamp/bg-hero-wholesale-stamp.png);
+    height: 336px;
+}
+.section-hero-wholestamp-stamp-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-hero-wholestamp-stamp-wrapper h1 {
+    font-size: 70px;
+    font-family: "ibm-plex-sans-thai-regular";
+    color: #fff;
+    line-height: 1;
+}
+
+@media screen and (min-width: 1441px) {
+    .section-hero-wholestamp-stamp {
+        height: 23.333vw;
+    }
+    .section-hero-wholestamp-stamp-wrapper h1 {
+        font-size: 4.861vw;
+    }
+}
+
+@media screen and (max-width: 1439px) {
+    .section-hero-wholestamp-stamp {
+        height: 23.333vw;
+    }
+    .section-hero-wholestamp-stamp-wrapper h1 {
+        font-size: 4.861vw;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .section-hero-wholestamp-stamp {
+        background-image: url(../images/wholesale-stamp/bg-hero-wholesale-stamp-m.png);
+        height: 53.333vw;
+    }
+    .section-hero-wholestamp-stamp-wrapper h1 {
+        font-size: 8vw;
+    }
+}

@@ -1,0 +1,47 @@
+.section-hero-plastic-stamp {
+    background-image: url(../images/plastic-stamp/bg-hero-plastic-stamp.png);
+    height: 336px;
+}
+.section-hero-plastic-stamp-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-hero-plastic-stamp-wrapper h1 {
+    font-size: 70px;
+    font-family: "ibm-plex-sans-thai-regular";
+    color: #fff;
+    line-height: 1;
+}
+
+@media screen and (min-width: 1441px) {
+    .section-hero-plastic-stamp {
+        height: 23.333vw;
+    }
+    .section-hero-plastic-stamp-wrapper h1 {
+        font-size: 4.861vw;
+    }
+}
+
+@media screen and (max-width: 1439px) {
+    .section-hero-plastic-stamp {
+        height: 23.333vw;
+    }
+    .section-hero-plastic-stamp-wrapper h1 {
+        font-size: 4.861vw;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .section-hero-plastic-stamp {
+        background-image: url(../images/plastic-stamp/bg-hero-plastic-stamp-m.png);
+        height: 53.333vw;
+    }
+    .section-hero-plastic-stamp-wrapper h1 {
+        font-size: 8vw;
+    }
+
+    .site-main.plastic .section-dete-stamp-second-image-box {
+        top: 178vw;
+    }
+}

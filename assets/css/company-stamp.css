@@ -1,0 +1,47 @@
+.section-hero-company-stamp {
+    background-image: url(../images/company-stamp/bg-hero-company-stamp.png);
+    height: 336px;
+}
+.section-hero-company-stamp-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-hero-company-stamp-wrapper h1 {
+    font-size: 70px;
+    font-family: "ibm-plex-sans-thai-regular";
+    color: #fff;
+    line-height: 1;
+}
+
+@media screen and (min-width: 1441px) {
+    .section-hero-company-stamp {
+        height: 23.333vw;
+    }
+    .section-hero-company-stamp-wrapper h1 {
+        font-size: 4.861vw;
+    }
+}
+
+@media screen and (max-width: 1439px) {
+    .section-hero-company-stamp {
+        height: 23.333vw;
+    }
+    .section-hero-company-stamp-wrapper h1 {
+        font-size: 4.861vw;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .section-hero-company-stamp {
+        background-image: url(../images/company-stamp/bg-hero-company-stamp-m.png);
+        height: 53.333vw;
+    }
+    .section-hero-company-stamp-wrapper h1 {
+        font-size: 8vw;
+    }
+
+    .site-main.company .section-dete-stamp-second-image-box {
+        top: 188vw;
+    }
+}

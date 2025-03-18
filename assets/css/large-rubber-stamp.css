@@ -1,0 +1,47 @@
+.section-hero-large-rubber-stamp {
+    background-image: url(../images/large-rubber-stamp/bg-hero-large-rubber-stamp.png);
+    height: 336px;
+}
+.section-hero-large-rubber-stamp-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-hero-large-rubber-stamp-wrapper h1 {
+    font-size: 70px;
+    font-family: "ibm-plex-sans-thai-regular";
+    color: #fff;
+    line-height: 1;
+}
+
+@media screen and (min-width: 1441px) {
+    .section-hero-large-rubber-stamp {
+        height: 23.333vw;
+    }
+    .section-hero-large-rubber-stamp-wrapper h1 {
+        font-size: 4.861vw;
+    }
+}
+
+@media screen and (max-width: 1439px) {
+    .section-hero-large-rubber-stamp {
+        height: 23.333vw;
+    }
+    .section-hero-large-rubber-stamp-wrapper h1 {
+        font-size: 4.861vw;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .section-hero-large-rubber-stamp {
+        background-image: url(../images/large-rubber-stamp/bg-hero-large-rubber-stamp-m.png);
+        height: 53.333vw;
+    }
+    .section-hero-large-rubber-stamp-wrapper h1 {
+        font-size: 8vw;
+    }
+
+    .section-dete-stamp-second-image-box.large-rubber-stamp {
+        top: 168vw;
+    }
+}
